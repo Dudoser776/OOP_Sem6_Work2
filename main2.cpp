@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include <locale>
 
 using namespace std;
 
@@ -53,6 +53,7 @@ public:
 
 
 int main() {
+    setlocale(LC_ALL, "ru_RU.UTF-8");
     cout << "\n=== Статическое создание объектов Person ===" << endl;
     Person p1;                                    // конструктор без параметров
     Person p2("Иван Иванов", 30, "1234-567890");  // конструктор с параметрами
