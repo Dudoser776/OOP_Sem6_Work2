@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 using namespace std;
 
 // БАЗОВЫЙ КЛАСС - PERSON
